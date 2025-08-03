@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { GridBackgroundDemo } from "../ui/GridBackground";
 import { Spotlight } from "../ui/Spotlight";
-import { TextGenerateEffect } from "../ui/TextGenerateEffect";
 import MagicButton from "../ui/MagicButton";
 
 import { FaLocationArrow } from "react-icons/fa6";
