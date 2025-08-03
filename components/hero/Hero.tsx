@@ -31,16 +31,24 @@ const Hero = () => {
             HELLO TO MY WORLD.
           </h2>
 
-          <TextGenerateEffect
+          {/* <TextGenerateEffect
             words="Transforming real-world needs into digital products."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          />
+          /> */}
+
+          <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl font-bold my-4 dark:text-white text-black  leading-snug tracking-wide">
+            Transforming real-world needs into{" "}
+            <span className="text-purple"> digital products.</span>
+          </h1>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi, I&apos;m Ahmed, a FullStack Engineer based in Egypt.
           </p>
 
-          <Link href={"#"}>
+          <Link
+            href={"https://github.com/AhmedHeikall?tab=repositories"}
+            target="_blank"
+          >
             <MagicButton
               title="See my work"
               icon={<FaLocationArrow />}
