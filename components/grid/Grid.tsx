@@ -5,6 +5,7 @@ import { gridItems } from "@/data";
 const Grid = () => {
   return (
     <section id="about">
+      {/* padding about */}
       <BentoGrid className="w-full py-10 sm:py-0">
         {gridItems.map((item) => (
           <BentoGridItem

@@ -4,7 +4,7 @@ import { GridBackgroundDemo } from "../ui/GridBackground";
 import { Spotlight } from "../ui/Spotlight";
 import MagicButton from "../ui/MagicButton";
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -50,7 +50,7 @@ const Hero = () => {
           >
             <MagicButton
               title="See my work"
-              icon={<FaLocationArrow />}
+              icon={<FaGithub />}
               position="right"
             />
           </Link>
