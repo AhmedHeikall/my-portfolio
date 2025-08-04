@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -75,7 +74,7 @@ export const projects = [
     title: "DevOverflow - is a modern StackOverflow clone.",
     des: "community-driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structure, AI, and more.",
     img: "/devoverflow.PNG",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/MongoDb.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/MongoDB.svg", "/c.svg"],
     link: "https://stack-overflow-nextjs14-b980xmx2i-ahmed-heikals-projects.vercel.app",
   },
   {

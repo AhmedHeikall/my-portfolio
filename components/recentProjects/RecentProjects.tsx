@@ -4,7 +4,7 @@ import ProjectCard from "../ui/ProjectCard";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20 max-ms:py-4">
+    <div className="py-20 max-ms:py-4" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
