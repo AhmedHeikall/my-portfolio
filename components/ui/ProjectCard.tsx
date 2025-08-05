@@ -44,7 +44,7 @@ const ProjectCard = ({
           {descrption}
         </p>
 
-        <div className="flex items-center justify-between mt-7 mb-3 max-sm:flex-col ">
+        <div className="flex items-center justify-between mt-7 mb-3  max-md:flex-col">
           <div className="flex items-center">
             {projectIcons.map((icon, index) => (
               <div
@@ -60,7 +60,7 @@ const ProjectCard = ({
           </div>
 
           <Link href={link} target="_blank">
-            <div className="flex justify-center items-center max-sm:mt-4">
+            <div className="flex justify-center items-center max-md:mt-4">
               <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                 Check Live Site
               </p>
