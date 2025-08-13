@@ -130,8 +130,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Experienced with Linux environments",
-    desc: "Familiar with the fundamentals of cloud computing.",
+    title: "Cloud and AWS/DevOps ",
+    desc: "Familiar with cloud computing concepts, AWS fundamentals, and Identity & Access Management (IAM). Skilled in Linux system administration and command-line operations. and I am keep learning...",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

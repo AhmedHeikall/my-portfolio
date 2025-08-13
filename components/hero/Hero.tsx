@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36 mb-16">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -30,18 +30,14 @@ const Hero = () => {
             HELLO TO MY WORLD.
           </h2>
 
-          {/* <TextGenerateEffect
-            words="Transforming real-world needs into digital products."
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
-          /> */}
-
           <h1 className="text-center text-[40px] md:text-5xl lg:text-6xl font-bold my-4 dark:text-white text-black  leading-snug tracking-wide">
             Transforming real-world needs into{" "}
             <span className="text-purple"> digital products.</span>
           </h1>
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Ahmed, a FullStack Engineer based in Egypt.
+            Hi, I&apos;m Ahmed, a Full Stack Engineer | Cloud & DevOps
+            Specialist based in Egypt.
           </p>
 
           <Link
