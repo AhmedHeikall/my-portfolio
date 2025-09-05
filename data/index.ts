@@ -131,7 +131,7 @@ export const workExperience = [
   {
     id: 4,
     title: "AWS & DevOps Engineer (Entry-Level)",
-    desc: "Practical experience with AWS cloud services, Linux, automation, and CI/CD pipelines. '\n' Skilled in deploying applications, managing infrastructure, and implementing DevOps best practices. '\n' Proficient in Linux and shell scripting, with hands-on experience automating cloud infrastructure using AWS CLI.",
+    desc: "Practical experience with AWS cloud services, Linux, automation, and CI/CD pipelines.  Skilled in deploying applications, managing infrastructure, and implementing DevOps best practices.  Proficient in Linux and shell scripting, with hands-on experience automating cloud infrastructure using AWS CLI.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
