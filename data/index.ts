@@ -110,7 +110,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Bachelor's Degree in Computer Engineering",
-    desc: "with a robust foundation in software development and software engineering, Experienced in data structures and algorithms. Experienced with Linux environments and equipped with strong problem-solving, debugging, and collaborative skills. Certified in Embedded Systems, Frontend & Backend Testing with hands-on experience in automation,  Java, and real-time systems. Passionate about learning new technologies and driven to make a positive impact on the world.",
+    desc: "robust foundation in software development and software engineering.  Proficient in programming languages including C programming, Java, JavaScript, TypeScript, and Python, with 2+ years of experience in C++.  Skilled in Object-Oriented Programming (OOP), Object-Oriented Design (OOD), and Networking (IP/TCP).  Experienced in data structures and algorithms.  Certified in Embedded Systems with strong C programming skills.  Strong problem-solving, debugging, and collaboration skills.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
