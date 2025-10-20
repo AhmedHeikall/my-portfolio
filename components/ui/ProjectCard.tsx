@@ -5,7 +5,9 @@ import { FaLocationArrow } from "react-icons/fa6";
 interface ProjectCardProps {
   img?: string;
   title?: string;
-  descrption?: string;
+  descOne?: string;
+  descTwo?: string;
+  descThree?: string;
   link: string;
   projectIcons: string[];
 }
@@ -13,7 +15,9 @@ interface ProjectCardProps {
 const ProjectCard = ({
   img,
   title,
-  descrption,
+  descOne,
+  descTwo,
+  descThree,
   link,
   projectIcons,
 }: ProjectCardProps) => {
@@ -26,7 +30,7 @@ const ProjectCard = ({
         <img
           className="w-full h-full object-cover object-center max-h-64 rounded-xl"
           src={img}
-          alt={descrption}
+          alt={descOne}
         />
       </div>
 
@@ -41,7 +45,25 @@ const ProjectCard = ({
             margin: "1vh 0",
           }}
         >
-          {descrption}
+          {descOne}
+        </p>
+        <p
+          className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+          style={{
+            color: "#BEC1DD",
+            margin: "1vh 0",
+          }}
+        >
+          {descTwo}
+        </p>
+        <p
+          className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+          style={{
+            color: "#BEC1DD",
+            margin: "1vh 0",
+          }}
+        >
+          {descThree}
         </p>
 
         <div className="flex items-center justify-between mt-7 mb-3  max-md:flex-col">

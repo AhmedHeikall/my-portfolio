@@ -74,35 +74,50 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "DevOverflow - is a modern StackOverflow clone.",
-    des: "community-driven platform for asking and answering programming questions. Get help, share knowledge, and collaborate with developers from around the world. Explore topics in web development, mobile app development, algorithms, data structure, AI, and more.",
+    title: "DevOverflow",
+    descOne:
+      "full-stack web application to enhance knowledge sharing and collaboration.",
+    descTwo:
+      "The platform includes features such as a recommendation system for posts, AI-generated answers, and more.",
+    descThree:
+      " webhook-enabled database synchronization, it is optimized for SEO",
     img: "/devoverflow.PNG",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/MongoDB.svg", "/c.svg"],
     link: "https://stack-overflow-nextjs14-b980xmx2i-ahmed-heikals-projects.vercel.app",
   },
   {
     id: 2,
-    title: "Filmpire - AI Powered Movie App [React.js, Material UI, Alan AI]",
-    des: "Filmpire combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, React router, Material UI, Alan AI, and more.",
-    img: "/filmbire.PNG",
-    iconLists: ["/re.svg", "/Redux.svg", "/JavaScript.svg", "/Material UI.svg"],
-    link: " https://filmpire-aheikal.netlify.app",
+    title: "Microservices Blog Application",
+    descOne:
+      "scalable microservices-based blog system using an event-driven architecture.",
+    descTwo:
+      "Containerized services with Docker and orchestrated them using Kubernetes.",
+    descThree:
+      "ensure reliability, fault tolerance, and efficient data consistency across the system.",
+    img: "/ms.PNG",
+    iconLists: [
+      "/docker-svgrepo-com.svg",
+      "/kubernetes-svgrepo-com.svg",
+      "/nodejs-logo-svgrepo-com.svg",
+      "/express-svgrepo-com.svg",
+    ],
+    link: "https://github.com/AhmedHeikall/mini-microservices-app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "cooming soon...",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "cooming soon...",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "AWS CI/CD Infrastructure Automation",
+    descOne:
+      "Automated AWS infrastructure and CI/CD pipelines using AWS CLI, Bash, and AWS CodePipeline suite",
+    descTwo:
+      "(CodeCommit, CodeBuild, CodeDeploy) for seamless multi-environment deployments.",
+    descThree: "Provisioned infrastructure as code.",
+    img: "/aws.PNG",
+    iconLists: [
+      "/aws-svgrepo-com.svg",
+      "/aws-ec2-svgrepo-com.svg",
+      "/aws-iam-svgrepo-com.svg",
+    ],
+    link: "https://github.com/AhmedHeikall/CI-CD-Project",
   },
 ];
 
@@ -110,28 +125,45 @@ export const workExperience = [
   {
     id: 1,
     title: "Bachelor's Degree in Computer Engineering",
-    desc: "robust foundation in software development and software engineering.  Proficient in programming languages including C programming, Java, JavaScript, TypeScript, and Python, with 2+ years of experience in C++.  Skilled in Object-Oriented Programming (OOP), Object-Oriented Design (OOD), and Networking (IP/TCP).  Experienced in data structures and algorithms.  Certified in Embedded Systems with strong C programming skills.  Strong problem-solving, debugging, and collaboration skills.",
+    descOne:
+      " strong foundation in software development, system design, cloud computing, and DevOps practices.",
+    descTwo: "Experienced in data structures and algorithms.",
+    descThree:
+      "strong problem-solving, debugging, and teamwork skills, with a commitment to continuous learning and delivering efficient, high-quality software solutions.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "FullStack Engineer",
-    desc: "Extensive experience in building dynamic and responsive web applications using React.js and Next.js. Adept at backend development with Node.js and database management using both SQL and NoSQL technologies.",
+    title: "Full-Stack Engineer",
+    descOne:
+      "proficient in React.js, Next.js, and Node.js/Express.js, with hands-on experience in both SQL and NoSQL databases.",
+    descTwo:
+      "Hands-on experience designing and implementing microservices and event-driven architectures.",
+    descThree:
+      "automated API testing using Postman, and frontend test automation using Selenium.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Proficient in programming languages",
-    desc: "including C, Java, JavaScript, TypeScript, and Python, with 2+ years of experience in C++. Skilled in Object-Oriented Programming (OOP) and Object-Oriented Design (OOD).",
+    descOne: "Proficient in C, C++, Java, JavaScript, TypeScript, and Python.",
+    descTwo:
+      "solid experience in Object-Oriented Programming (OOP), Object-Oriented Design (OOD), and networking (IP/TCP).",
+    descThree: "",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "AWS & DevOps Engineer (Entry-Level)",
-    desc: "Practical experience with AWS cloud services, Linux, automation, and CI/CD pipelines.  Skilled in deploying applications, managing infrastructure, and implementing DevOps best practices.  Proficient in Linux and shell scripting, with hands-on experience automating cloud infrastructure using AWS CLI.",
+    title: "Cloud and DevOps",
+    descOne:
+      "Skilled in deploying and managing infrastructure using Docker, Kubernetes (K8s), and CI/CD pipelines.",
+    descTwo:
+      "Strong background in AWS cloud services, Linux automation, and CI/CD pipelines.",
+    descThree:
+      "applying industry best practices for scalability and reliability.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

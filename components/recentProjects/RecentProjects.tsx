@@ -17,7 +17,9 @@ const RecentProjects = () => {
             link={project.link}
             img={project.img}
             title={project.title}
-            descrption={project.des}
+            descOne={project.descOne}
+            descTwo={project.descTwo}
+            descThree={project.descThree}
             projectIcons={project.iconLists}
           />
         ))}
